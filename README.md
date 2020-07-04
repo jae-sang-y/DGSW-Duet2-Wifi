@@ -19,10 +19,10 @@
 ---
 ### HW
 * Duet2 WIFI>=1.02 [구매하기](https://duet3d.com/DuetWifi)
-* Panel Due [구매하기](https://duet3d.com/PanelDue)
+* Panel Due==3.0 [구매하기](https://duet3d.com/PanelDue)
 ### SW
-* Panel Due firmware version 1.23.2 WiFi/Ethernet(2.03 beta 3 / 2019-03-25b6)
-* RepRapFirmware for Duet2
+* Panel Due firmware version 1.23.2 
+* RepRapFirmware for Duet2 WiFi/Ethernet(2.03 beta 3 / 2019-03-25b6)
 
 
 배선다이어그램

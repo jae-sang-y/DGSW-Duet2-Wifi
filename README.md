@@ -11,6 +11,9 @@
 진행상황
 ---
 - [x] [수동 와이파이 연결](../master/documents/how_to_connect_wifi_with_panel.md)
+- [ ] 펌웨어 수정
+- [ ] DWC 한글화
+- [ ] 3D 프린터 기능 명세
 
 동작환경
 ---

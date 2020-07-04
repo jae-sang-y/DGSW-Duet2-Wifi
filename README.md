@@ -2,7 +2,7 @@
 #### 목차
 1. 개요
 1. [진행상황](#진행상황)
-1. [사용한부품](#사용한부품)
+1. [동작환경](#동작환경)
 1. 다이어그램들
    1. [배선다이어그램](#배선다이어그램)
    1. [기능다이어그램](#기능다이어그램)
@@ -12,10 +12,15 @@
 ---
 - [x] [수동 와이파이 연결](../master/documents/how_to_connect_wifi_with_panel.md)
 
-사용한부품
+동작환경
 ---
-* Duet2 WIFI [구매하기](https://duet3d.com/DuetWifi)
+### HW
+* Duet2 WIFI>=1.02 [구매하기](https://duet3d.com/DuetWifi)
 * Panel Due [구매하기](https://duet3d.com/PanelDue)
+### SW
+* Panel Due firmware version 1.23.2 WiFi/Ethernet(2.03 beta 3 / 2019-03-25b6)
+* RepRapFirmware for Duet2
+
 
 배선다이어그램
 ---

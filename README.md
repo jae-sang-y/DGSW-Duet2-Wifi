@@ -10,7 +10,7 @@
 
 진행상황
 ---
-- [x] [수동 와이파이 연결](../blob/master/documents/how_to_connect_wifi_with_panel)
+- [x] [수동 와이파이 연결](../blob/master/documents/how_to_connect_wifi_with_panel.md)
 
 사용한부품
 ---

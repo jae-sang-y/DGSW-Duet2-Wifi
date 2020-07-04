@@ -9,7 +9,7 @@ Panel Due가 켜지면, 콘솔 창에 들어가 `M115` 명령을 입력하여 �
 `M552` 명령어 입력했을 때, `Wifi module is idle` 이라 뜨면 Wifi 모듈 활성화 성공.  
 `M587 S"네트워크SSID" P"네트워크비밀번호"` 명령어로 연결할 와이파이를 세팅한다.  
 `M552 S1` 명령어를 입력하여 와이파이에 연결한다.  
-`WiFi reported error: no known ketworks found WiFi module is idle`  
+`WiFi reported error: no known networks found WiFi module is idle`  
 와이파이에 연결에 실패하면 위 같은 메시지가 반복적으로 출력된다.
 3. DWC 접속
  이후, PC에서 보드와 같은 와이파이에 접속한다.  

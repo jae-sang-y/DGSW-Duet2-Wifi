@@ -27,7 +27,7 @@
 
 참조
 ---
-https://duet3d.dozuki.com/Wiki/Duet_2_Maestro_Wiring_Diagram
-https://duet3d.dozuki.com/Wiki/Hardware_Overview
-https://duet3d.dozuki.com/c/Getting_Started
-https://duet3d.dozuki.com/Wiki/Step_by_step_guide
+https://duet3d.dozuki.com/Wiki/Duet_2_Maestro_Wiring_Diagram  
+https://duet3d.dozuki.com/Wiki/Hardware_Overview  
+https://duet3d.dozuki.com/c/Getting_Started  
+https://duet3d.dozuki.com/Wiki/Step_by_step_guide  

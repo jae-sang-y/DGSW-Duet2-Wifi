@@ -27,7 +27,7 @@
 
 배선다이어그램
 ---
-![alt](https://d17kynu4zpq5hy.cloudfront.net/igi/duet3d/4k56ZjaaAHrTJI6Z.large)
+![alt](https://d17kynu4zpq5hy.cloudfront.net/igi/duet3d/4k56ZjaaAHrTJI6Z.huge)
 
 기능다이어그램
 ---

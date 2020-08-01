@@ -1,0 +1,8 @@
+c:\users\user\documents\visual studio 2015\Projects\2020_narsha_3in1printer\2020_narsha_3in1printer\bin\Debug\2020_narsha_3in1printer.exe.config
+c:\users\user\documents\visual studio 2015\Projects\2020_narsha_3in1printer\2020_narsha_3in1printer\bin\Debug\2020_narsha_3in1printer.exe
+c:\users\user\documents\visual studio 2015\Projects\2020_narsha_3in1printer\2020_narsha_3in1printer\bin\Debug\2020_narsha_3in1printer.pdb
+c:\users\user\documents\visual studio 2015\Projects\2020_narsha_3in1printer\2020_narsha_3in1printer\obj\Debug\_2020_narsha_3in1printer.Form1.resources
+c:\users\user\documents\visual studio 2015\Projects\2020_narsha_3in1printer\2020_narsha_3in1printer\obj\Debug\_2020_narsha_3in1printer.Properties.Resources.resources
+c:\users\user\documents\visual studio 2015\Projects\2020_narsha_3in1printer\2020_narsha_3in1printer\obj\Debug\2020_narsha_3in1printer.csproj.GenerateResource.Cache
+c:\users\user\documents\visual studio 2015\Projects\2020_narsha_3in1printer\2020_narsha_3in1printer\obj\Debug\2020_narsha_3in1printer.exe
+c:\users\user\documents\visual studio 2015\Projects\2020_narsha_3in1printer\2020_narsha_3in1printer\obj\Debug\2020_narsha_3in1printer.pdb

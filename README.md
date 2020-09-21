@@ -11,9 +11,14 @@
 진행상황
 ---
 - [x] [수동 와이파이 연결](../master/documents/how_to_connect_wifi_with_panel.md)
-- [ ] 펌웨어 수정
+- [x] 펌웨어 수정
 - [x] [DWC 한글화](../master/DWC-Korean/README.md)
-- [ ] 3D 프린터 기능 명세
+- [x] 3D 프린터 XYZ모터 및 XYZ 스탑 기능
+- [x] 3D 프린터 열 센서(베드, 익스트루더) 기능
+- [x] 3D 프린터 익스트루더 기능
+- [x] 3D 프린터 베드 기능
+- [ ] 3D 프린터 오토 레벨링 기능
+- [x] 웹 캠 기능
 
 동작환경
 ---

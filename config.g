@@ -41,8 +41,8 @@ M140 S60 R40                                          ; Set bed active and stand
 M106 P1 S0.3 I0 H-1 L0.33                             ; Extruder 0 Fan
 
 ; Config Wifi module
-M588 S"3Dedu"                                         ; Delete previous wifi config
-M587 S"3Dedu" P"3D56525256" I192.168.0.60             ; Set wifi config
 M552 S-1                                              ; 1. Stop wifi module
 M552 S0                                               ; 2. Idle wifi module
+M588 S"3Dedu"                                         ; Delete previous wifi config
+M587 S"3Dedu" P"3D56525256" I192.168.0.60             ; Set wifi config
 M552 S1                                               ; 3. Start wifi module

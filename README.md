@@ -46,3 +46,4 @@ https://duet3d.dozuki.com/c/Getting_Started
 https://duet3d.dozuki.com/Wiki/Step_by_step_guide  
 https://github.com/Duet3D/DuetWebControl  
 https://github.com/Duet3D/RepRapFirmware/releases
+https://duet3d.dozuki.com/Wiki/Gcode

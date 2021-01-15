@@ -37,7 +37,7 @@ M570 H1 P5 S3                                         ; Heater fault detection f
 M563 P0 D0 H1                                         ; Define tool 0 to use extruder 0 and heater 1
 G10 P0 S185 R120                                      ; Set tool 0 active and standby temperatures
 M591 D0 P2 C3 S1                                      ; Filament out sensor connect to E0stop
-M140 S60 R40                                          ; Set bed active and standby temperature
+M140 H0 S40 R40                                       ; Set bed active and standby temperature
 M106 P1 S0.3 I0 H-1 L0.33                             ; Extruder 0 Fan
 
 ; Config Wifi module

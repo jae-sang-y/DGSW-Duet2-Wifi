@@ -31,16 +31,13 @@ M83                                                   ; ...but relative extruder
 ; Heater and thermistor section
 M305 P0 S"Bed" R4700 H0 L0                            ; Set temperature sensor parameters for bed
 M305 P1 S"Extruder 0" R4700 H0 L0                     ; Set temperature sensor parameters for extruder 0
-M301 H0 P209.5 I2.868 D1384.7                         ; PID settings for bed
-M307 H0 A40.0 C565.5 D0.4 B0                          ; Set heating process parameters
-M301 H1 P14.2 I0.523 D53.8 S1.0                       ; PID settings for extruder 0
 M570 H1 P5 S3                                         ; Heater fault detection for extruder 0
 
 ; Tool and Fan definition section
 M563 P0 D0 H1                                         ; Define tool 0 to use extruder 0 and heater 1
 G10 P0 S185 R120                                      ; Set tool 0 active and standby temperatures
 M591 D0 P2 C3 S1                                      ; Filament out sensor connect to E0stop
-M140 S50                                              ; Set bed target temperature
+M140 S60 R40                                          ; Set bed active and standby temperature
 M106 P1 S0.3 I0 H-1 L0.33                             ; Extruder 0 Fan
 
 ; Config Wifi module

@@ -25,6 +25,7 @@
 ### HW
 * Duet2 WIFI>=1.02 [구매하기](https://duet3d.com/DuetWifi)
 * Panel Due==3.0 [구매하기](https://duet3d.com/PanelDue)
+* 3D Touch [구매하기](https://www.amazon.com/BZ-3D-Leveling-Printers-Precision/dp/B07ZCZP15F/ref=sr_1_2_sspa?dchild=1&keywords=3d+touch&qid=1610678413&sr=8-2-spons&psc=1&spLa=ZW5jcnlwdGVkUXVhbGlmaWVyPUEyRURFMVBLSUlETTNDJmVuY3J5cHRlZElkPUEwODA1OTUxMU5GMlpKSTFPQVBQTiZlbmNyeXB0ZWRBZElkPUEwNDc4MDA2MlQ1VE1TTzZRWkwxQiZ3aWRnZXROYW1lPXNwX2F0ZiZhY3Rpb249Y2xpY2tSZWRpcmVjdCZkb05vdExvZ0NsaWNrPXRydWU=#descriptionAndDetails)
 ### SW
 * Panel Due firmware version 1.23.2 
 * RepRapFirmware for Duet2 WiFi/Ethernet(2.03 beta 3 / 2019-03-25b6)

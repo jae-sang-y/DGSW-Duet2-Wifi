@@ -21,7 +21,7 @@ M201 X800 Y800 Z800 E800                              ; Accelerations (mm/s^2)
 M203 X15000 Y15000 Z1000 E15000                       ; Maximum speeds (mm/min)
 M566 X600 Y600 Z600 E600                              ; Minimum speeds (mm/min)
 M208 X300 Y300 Z300                                   ; Axis maximum
-M208 X0 Y20 Z-0.2 S1                                  ; Axis minimum (adjust to make X=0 and Y=0 the edge of the bed)
+M208 X0 Y22 Z0.35 S1                                  ; Axis minimum (adjust to make X=0 and Y=0 the edge of the bed)
 M92 X80 Y80 Z400                                      ; Set axis steps/mm
 M92 E80:80                                            ; Set extruder steps per mm
 G21                                                   ; Work in millimetres
@@ -40,9 +40,19 @@ M591 D0 P2 C3 S1                                      ; Filament out sensor conn
 M140 H0 S40 R40                                       ; Set bed active and standby temperature
 M106 P1 S0.3 I0 H-1 L0.33                             ; Extruder 0 Fan
 
+; Z probe(Bl touch or 3D touch)
+M558 P9 H5 F120 X0 Y0 Z1 T3000                        ; Set Z-probe type
+M307 H3 A-1 C-1 D-1                                   ; Stop heater-3 pin as heater pin
+G31 X41.3 Y-25 Z-0.7 P999                              ; Set Z-probe status
+M280 P3 S160 I1                                       ; Ready Z-probe
+
 ; Config Wifi module
 M552 S-1                                              ; 1. Stop wifi module
 M552 S0                                               ; 2. Idle wifi module
 M588 S"3Dedu"                                         ; Delete previous wifi config
 M587 S"3Dedu" P"3D56525256" I192.168.0.4              ; Set wifi config
 M552 S1                                               ; 3. Start wifi module
+
+;Epilogue
+G28                                                   ; Go Home                                             
+M557 X50:250 Y50:250 S20                              ; Set Grid for height-map
